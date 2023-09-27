@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./unit_testing_best_practice/src"
+    ]
+}
