@@ -1,5 +1,11 @@
 {
     "python.analysis.extraPaths": [
-        "./unit_testing_best_practice/src"
-    ]
+        "./unit_testing_best_practice/src",
+        "./app_web/src"
+    ],
+    "python.testing.pytestArgs": [
+        "app_web"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
